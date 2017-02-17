@@ -1,4 +1,4 @@
 # message-app
 MEAN stack messaging app using Angular 2.
 
-Each folder has its folder structure in the project, so feel free to re-use part of code if you find it usefull
+Each folder here acts as separate 'module'. This folder structure is not the same as in production application. Feel free to use components to create parts for your own app.
