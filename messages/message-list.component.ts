@@ -8,8 +8,7 @@ import { Message } from './message.model';
     template: `
         <div class='col-md-8 col-md-offset-2'>
             <app-message 
-                [message]="message" 
-                (editClicked)="message.content = $event"
+                [message]="message"
                 *ngFor="let message in messages"> {{ message }}</app-message>
         </div>
     `
