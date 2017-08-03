@@ -13,7 +13,8 @@ import { Component } from '@angular/core';
 
 export class LogoutComponent {
 
-    constructor(private authService: AuthService, private router: Router) {}
+    constructor(private authService: AuthService,
+                private router: Router) {}
 
     onLogout() {
         this.authService.logout();
